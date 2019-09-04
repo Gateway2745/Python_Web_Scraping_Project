@@ -1,28 +1,16 @@
-# WEB SCRAPER
+## Web Scraper
 
-This project , with the help of a script , takes data of the top 200 contestants from the famous competitve coding website 'Codeforces.com'
-and finds out the average time it takes to be a top level coder!
+This projects scrapes the timeline data of the top 200 contestants from the famous competitve coding website [codeforces.com](https://codeforces.com/) and calculates the average time it takes to be a top level coder!
 
-### LIBRARIES USED
+### Libraries Used
+Selenium <br />
+Beautiful Soup <br />
+re <br />
 
-Selenium
+### Run
 
-Beautiful Soup
+`python index.py`
 
-re
+The output is written to `average.txt`.
 
-### MOTIVATION
-
-Being a newbie to competitive programming , one of the many things I wanted to know was the average time it takes to enrich ones
-programming skills. This project also helped me in getting started with Python and implementing some of its well-known
-libraries.
-
-### IMPROVEMENT
-
-The data for the script was taken from the progress charts which begin from when the contestants register and continue on till present
-time. Hence it does not take into account any 'breaks' which they might have taken or their prior expertise. However the value obtained
-from the script does provide a quite accurate value. Improvements can be made regarding the above-mentioned pitfalls.
-
-
-
-
+At the time of running this code, the output obtained indicates that the average time required is 5.81 years! That's a lot.
